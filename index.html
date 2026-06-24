@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کیک شربتی شیرازی</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Vazirmatn',sans-serif;
+}
+
+body{
+background:#f5f0e7;
+color:#1f4b3a;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('hero.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#b9965a;
+padding:15px 35px;
+border-radius:40px;
+text-decoration:none;
+color:white;
+font-size:18px;
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+font-size:38px;
+text-align:center;
+margin-bottom:50px;
+color:#1f4b3a;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:25px;
+}
+
+.about p{
+font-size:20px;
+line-height:2;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3{
+padding:20px;
+}
+
+.card p{
+padding:0 20px 20px;
+}
+
+.contact{
+background:#1f4b3a;
+color:white;
+text-align:center;
+}
+
+.contact a{
+display:inline-block;
+margin-top:25px;
+background:#b9965a;
+padding:15px 35px;
+border-radius:35px;
+color:white;
+text-decoration:none;
+}
+
+footer{
+background:#103126;
+color:white;
+text-align:center;
+padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+<h1>کیک شربتی شیرازی</h1>
+<p>عطر زعفران، هل و گلاب در هر لقمه</p>
+<a href="#products" class="btn">مشاهده محصولات</a>
+</div>
+</header>
+
+<section>
+<h2 class="title">داستان ما</h2>
+
+<div class="about">
+<img src="hafezieh.jpg">
+
+<p>
+کیک شربتی شیرازی با الهام از معماری اصیل شیراز و طعم‌های سنتی ایران تولید می‌شود.
+ما تلاش کرده‌ایم عطر زعفران، هل و گلاب را در محصولی لوکس و به‌یادماندنی به شما ارائه کنیم.
+</p>
+
+</div>
+</section>
+
+<section id="products">
+<h2 class="title">محصولات</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="product1.jpg">
+<h3>کیک شربتی زعفرانی</h3>
+<p>با عطر زعفران و گلاب</p>
+</div>
+
+<div class="card">
+<img src="product2.jpg">
+<h3>کیک شربتی پسته‌ای</h3>
+<p>تزئین شده با پسته ایرانی</p>
+</div>
+
+<div class="card">
+<img src="product3.jpg">
+<h3>بسته هدیه لوکس</h3>
+<p>مناسب پذیرایی و هدیه</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact">
+<h2>سفارش و همکاری</h2>
+<p>برای سفارش عمده و همکاری با ما تماس بگیرید.</p>
+
+<a href="https://wa.me/98912XXXXXXX">
+سفارش از طریق واتساپ
+</a>
+</section>
+
+<footer>
+کلیه حقوق متعلق به برند کیک شربتی شیرازی است.
+</footer>
+
+</body>
+</html>
